@@ -1,0 +1,37 @@
+/* Responsive navigation bar */
+.navbar {
+    background-color: #333; /* Background color for the navigation bar */
+  }
+  
+  .navbar-brand {
+    color: rgb(14, 155, 75); /* Text color for the brand/logo */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff; /* Color of the hamburger menu icon */
+  }
+  
+  .nav-link {
+    color: #e91111 !important; /* Text color for the navigation links */
+  }
+  
+  /* Add a hover effect for the navigation links */
+  .nav-link:hover {
+    color: #f5a623 !important; /* Change color on hover */
+  }
+  
+  /* Smooth scrolling behavior for navigation links */
+  .navbar a.nav-link {
+    cursor: pointer;
+  }
+  
+  /* Responsive navigation menu */
+  @media (max-width: 767px) {
+    .navbar-expand-lg .navbar-collapse {
+      background-color: #333;
+    }
+  
+    .navbar-expand-lg .navbar-toggler {
+      color: #fff;
+    }
+  }
