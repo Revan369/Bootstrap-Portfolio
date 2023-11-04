@@ -4,8 +4,15 @@ body {
   margin: 0 auto;
   background-color: darkorange;
 
+  .navbar {
+    background-color: darkolivegreen; /* makes the background color of the navbar green*/
+    height: 50px; /* controls the size of the navbar using height in pixels*/
   
+   }
 
+   .nav-link {
+    color: aliceblue; /* Makes the font color of the navigation links wht*/
+   }
   .github-logo {
     margin: 10px;
     width: 30px;
@@ -31,21 +38,37 @@ body {
   }
   
   .hero-text {
-    font-size: larger;
+    font-size: 50px;
     align-items: left;
     color: rgb(255, 255, 255);
-    padding: 5px;
+    padding: 10px;
     background-color: darkolivegreen;
-    margin: auto;
-    width: 100%;
+    width: fit-content;
+    margin: 0;
+    
 
   }
 
   .hero-text-small {
+    margin-left: 0%;
+    width: fit-content;
     font-size: smaller;
     color: rgb(255, 243, 227);
-    padding: 3px;
+    padding: 5px;
     background-color: darkolivegreen;
+    
+    
+
+  }
+
+  .footer-content {
+    margin-left: 0%;
+    width: 100%;
+    font-size: smaller;
+    color: rgb(255, 243, 227);
+    padding: 15px;
+    background-color: darkolivegreen;
+    
     
 
   }
