@@ -2,20 +2,24 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0 auto;
-  padding: 15px;
   background-color: darkorange;
 
+  
+
   .github-logo {
+    margin: 10px;
     width: 30px;
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
   }
 
   .linkedin-logo {
+    margin: 10px;
     width: 30px;
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
   }
 
   .gmail-logo {
+    margin: 10px;
     width: 30px;
     height: auto;
   }
@@ -30,7 +34,7 @@ body {
     font-size: larger;
     align-items: left;
     color: rgb(255, 255, 255);
-    padding: 3px;
+    padding: 5px;
     background-color: darkolivegreen;
     margin: auto;
     width: 100%;
