@@ -10,10 +10,25 @@ body {
     background-size: cover;
     background-repeat: no-repeat
   }
+  
+  .hero-text {
+    font-size: larger;
+    align-items: left;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    background-color: darkolivegreen;
+    margin: auto;
+    width: 100%;
 
-  .jumbotron {
-    background-image: url(/Bootstrap-Portfolio/assets/images/camo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat
   }
+
+  .hero-text-small {
+    font-size: smaller;
+    color: rgb(255, 243, 227);
+    padding: 3px;
+    background-color: darkolivegreen;
+    
+
+  }
+  
 }
