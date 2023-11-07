@@ -10,20 +10,39 @@ body {
   
    }
 
+
    .nav-link {
     color: aliceblue; /* Makes the font color of the navigation links wht*/
-   }
+    transition: transform 0.3s; 
+  }
+
+  .nav-link:hover {
+    transform: scale(1.2); /* Increase the size on hover (or any other transformation you prefer) */
+  }
+
+
   .github-logo {
     margin: 10px;
     width: 30px;
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    transition: transform 0.3s; /* Add a smooth transition effect */
+  }
+
+  .github-logo:hover {
+    transform: scale(1.2); /* Increase the size on hover (or any other transformation you prefer) */
   }
 
   .linkedin-logo {
     margin: 10px;
     width: 30px;
     height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    transition: transform 0.3s;
   }
+
+  .linkedin-logo:hover {
+    transform: scale(1.2); /* Increase the size on hover (or any other transformation you prefer) */
+  }
+
 
   .gmail-logo {
     margin: 10px;
@@ -60,6 +79,19 @@ body {
     
 
   }
+
+
+/* Add a box shadow to the button inside the work card */
+.card .btn {
+  transition: box-shadow 0.3s; /* Add a smooth transition effect */
+  box-shadow: 0px 5px 10px 0px rgba(227, 7, 7, 0.937); 
+}
+
+/* Add a hover effect to the button */
+.card .btn:hover {
+  box-shadow: 5px 10px 10px 0px rgb(85, 107, 47); 
+  transform: scale(1.1);
+}
 
   .footer-content {
     margin-left: 0%;
